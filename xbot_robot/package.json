@@ -1,0 +1,49 @@
+{
+  "uuid": "d8bc6477-8689-4a14-afba-adb029143323",
+  "name": "新建应用_4844",
+  "icon": null,
+  "version": "1",
+  "tags": null,
+  "software": null,
+  "software_title": null,
+  "package_version": 8,
+  "feature_list": [
+    2,
+    5,
+    6,
+    8
+  ],
+  "description": null,
+  "instruction": null,
+  "use_latest_pip": false,
+  "videoName": null,
+  "startup": "main",
+  "robot_type": "app",
+  "activity_code": null,
+  "flows": [
+    {
+      "name": "main",
+      "filename": "main",
+      "kind": "Visual",
+      "opened": false,
+      "groupName": null,
+      "enableCopilot": false
+    }
+  ],
+  "flow_groups": [],
+  "variables": [],
+  "external_dependencies": [],
+  "internaldependencies": [],
+  "selectordependencies": [],
+  "internalautodependencies": [],
+  "ipaasDependencies": [],
+  "databook_columns": [],
+  "authority": "use",
+  "internalautoupgrade": false,
+  "isbrief": false,
+  "uia_type": "PC",
+  "persist_databook": false,
+  "encrypt_bot": false,
+  "customItems": {},
+  "terminalTags": null
+}

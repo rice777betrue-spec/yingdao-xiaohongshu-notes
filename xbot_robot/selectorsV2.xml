@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository xmlns:x="rpa://selector/core" xmlns:regex="rpa://selector/operator/regex" xmlns:wildcard="rpa://selector/operator/wildcard" xmlns:contains="rpa://selector/operator/contains" xmlns:notContains="rpa://selector/operator/notContains" xmlns:startsWith="rpa://selector/operator/startsWith" xmlns:notStartsWith="rpa://selector/operator/notStartsWith" xmlns:endsWith="rpa://selector/operator/endsWith" xmlns:notEndsWith="rpa://selector/operator/notEndsWith" xmlns:notEquals="rpa://selector/operator/notEquals" xmlns:greaterThan="rpa://selector/operator/greaterThan" xmlns:greaterThanOrEqual="rpa://selector/operator/greaterThanOrEqual" xmlns:lessThan="rpa://selector/operator/lessThan" xmlns:lessThanOrEqual="rpa://selector/operator/lessThanOrEqual">
+  <group id="77872b7a-5873-43e8-be10-dd482dcb2e05" name="小红书 - 你的生活兴趣社区" type="Web" processName="chrome" criteria="https://www.xiaohongshu.com" selectorOringin="Inspect">
+    <selector id="9b0f4942-8718-46dd-a1db-93b3f9ba8a3f" name="文本框_aiSearchTextarea" type="simple" framework="chrome" selectorOringin="Inspect" processName="chrome" productName="Google Chrome" version="2">
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="textarea" id="search-input-in-feeds">
+      </web>
+    </selector>
+    <selector id="c05e9436-d5a8-4dc8-baec-30600ade8523" name="块元素" type="simple" framework="chrome" selectorOringin="Inspect" processName="chrome" productName="Google Chrome" version="2">
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" contains:class="search-area search-area-opacity">
+      </web>
+    </selector>
+    <selector id="9806f27a-bebb-4ebf-b13f-1a5fa6ff11e3" name="图片_single-line-search-icon" type="simple" framework="chrome" selectorOringin="Inspect" processName="chrome" productName="Google Chrome" version="2">
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="button">
+      </web>
+      <web x:name="img" class="single-line-search-icon">
+      </web>
+    </selector>
+    <selector id="88c667b0-5b5a-4ab3-a5aa-18ecd1cc24f3" name="图片_single-line-search-icon_1" type="simple" framework="chrome" selectorOringin="Inspect" processName="chrome" productName="Google Chrome" version="2">
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" contains:class="textarea-container-single-line">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="button">
+      </web>
+      <web x:name="img" class="single-line-search-icon">
+      </web>
+    </selector>
+    <selector id="276fe512-5150-49f1-9cb9-3a9bfcd4dc21" name="图片_single-line-search-icon_2" type="simple" framework="chrome" selectorOringin="Inspect" processName="chrome" productName="Google Chrome" version="2">
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="button">
+      </web>
+      <web x:name="img" class="single-line-search-icon">
+      </web>
+    </selector>
+    <selector id="64806dac-6601-454d-b918-272a6c8bfe5a" name="图片_AI搜索框搜索提交图标" type="simple" framework="chromium" selectorOringin="Inspect" processName="" productName="" version="2">
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" contains:class="textarea-container-single-line">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="button">
+      </web>
+      <web x:name="img" class="single-line-search-icon">
+      </web>
+      <xpath enable="true">
+        <segment value="//textarea[@id='search-input-in-feeds']/ancestor::div[contains(@class,'search-input')][1]//img[@class='single-line-search-icon']" />
+      </xpath>
+    </selector>
+    <selector id="34de70d7-9373-49d3-9b16-31b0b4fbc259" name="笔记卡片封面链接_AI搜索结果" type="simple" framework="chrome" selectorOringin="Inspect" processName="chrome" productName="Google Chrome" version="2">
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="section" index-of-type="0">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="a" contains:class="cover">
+      </web>
+      <xpath enable="true">
+        <segment value="//div[@class=&quot;feeds-container&quot;]//a[contains(@class, &quot;cover&quot;)]" />
+      </xpath>
+    </selector>
+    <selector id="537bed75-4969-44ce-9a05-d83bd7024617" name="封面" type="simple" framework="chrome" selectorOringin="Inspect" processName="chrome" productName="Google Chrome" version="2">
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" contains:class="swiper-slide-visible">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" contains:class="note-slider-img">
+      </web>
+      <web x:name="img">
+      </web>
+    </selector>
+    <selector id="bdc9af38-973e-4626-af5c-6f5fe79beb52" name="标题" type="simple" framework="chrome" selectorOringin="Inspect" processName="chrome" productName="Google Chrome" version="2">
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="h1" id="detail-title">
+      </web>
+    </selector>
+    <selector id="0a02dbcd-4682-4a6f-8e5a-6e1445e63ec7" name="点赞数，收藏数，评论数" type="simple" framework="chrome" selectorOringin="Inspect" processName="chrome" productName="Google Chrome" version="2">
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" class="engage-bar">
+      </web>
+      <web x:name="div" class="input-box">
+      </web>
+    </selector>
+    <selector id="2454794b-b541-4836-bb3a-8b87a9b380f8" name="点赞数量" type="simple" framework="chrome" selectorOringin="Inspect" processName="chrome" productName="Google Chrome" version="2">
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" class="left">
+      </web>
+      <web x:name="span" contains:class="like-wrapper">
+      </web>
+      <web x:name="span" class="count">
+      </web>
+    </selector>
+    <selector id="6ffa5083-1ccb-488c-844d-2be3675fc95c" name="收藏数量" type="simple" framework="chrome" selectorOringin="Inspect" processName="chrome" productName="Google Chrome" version="2">
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="span" id="note-page-collect-board-guide">
+      </web>
+      <web x:name="span" class="count">
+      </web>
+    </selector>
+    <selector id="49d2b506-5026-49fb-96b0-2f036ef9a549" name="评论数量" type="simple" framework="chrome" selectorOringin="Inspect" processName="chrome" productName="Google Chrome" version="2">
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="div" x:selected="false">
+      </web>
+      <web x:name="span" contains:class="chat-wrapper">
+      </web>
+      <web x:name="span" class="count">
+      </web>
+    </selector>
+  </group>
+</repository>
